@@ -1,0 +1,37 @@
+.form {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    /* background: ; */
+}
+.labelRow {
+    text-align: right;
+    padding-right: 10px;
+}
+.containerItem {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.input {
+    width: 300px;
+}
+textarea {
+    width: 300px;
+    height: 200px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #6a148e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:20px;
+  }
+  .centerDiv {
+      display: flex;
+      justify-content: center;
+  }

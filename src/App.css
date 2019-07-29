@@ -1,0 +1,19 @@
+.header {
+    background: #6a148e;
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon--logo {
+    height: 1.75rem;
+    width: auto !important;
+}
+html {
+    height: 100%
+}
+body {
+    height:100%;
+    background-color: lavender;
+}
