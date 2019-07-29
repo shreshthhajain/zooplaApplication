@@ -21,7 +21,6 @@ const styles = theme => ({
   },
   outerDiv: {
     paddingTop: "10px",
-    height: "calc(100%-80px)"
   }
 });
 

@@ -55,7 +55,7 @@ export default class ViewListing extends React.Component {
       <div>
        {this.state.listings.map((item, index) => {
          if (!item.isExpired) {
-            return <ListingSummary listing={item} editListing={this.editListing}/>
+            return <ListingSummary listing={item} editListing={this.editListing} key={item.id}/>
          } else {
            return null;
          }
